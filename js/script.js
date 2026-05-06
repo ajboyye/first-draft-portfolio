@@ -15,3 +15,10 @@ if (hour < 12) {
 
 // This will pop up when someone first visits your site
 alert(greeting + " Welcome to my electronic portfolio.");
+
+// ADD THIS BELOW
+const toggleButton = document.getElementById('dark-mode-toggle');
+
+toggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+});
