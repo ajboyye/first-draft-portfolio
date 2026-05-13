@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certifications</title>
-    <!-- This links to your CSS folder -->
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certifications</title>
+  <link rel="stylesheet" href="Styles/style.css">
 </head>
 <body>
 
 <nav>
-    <a href="index.html" class="active">Home</a></li>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="certifications.html">Certifications</a></li>
+  <a href="index.html">Home</a>
+  <a href="index.html#about">About</a>
+  <a href="index.html#projects">Projects</a>
+  <a href="certifications.html" class="active">Certifications</a>
 </nav>
-<button id="dark-mode-toggle">Toggle Glow</button>
 
-    <header>
-        <h1>Certifications</h1>
-    </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I’m Alexander Agas, a cybersecurity student at Waipahu High School interested in technology, web design, music, gaming, and digital creativity. I enjoy combining creativity with technical skills through coding and design projects while continuing to challenge myself through hobbies like Rubik’s cubes and kendama.</p>
-    </section>
+<header class="cert-hero">
+  <h1>Certifications</h1>
+  <p>Courses, skills, and learning experiences I am building as a cybersecurity student.</p>
+<header class="cert-hero">
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project-container">
+<section class="cert-section">
+  <h2>My Certifications</h2>
 
-    <div class="project-card">
-        <h3>Portfolio Website</h3>
-        <p>A responsive website built using HTML, CSS, and JavaScript.</p>
+  <div class="cert-grid">
+
+    <div class="cert-card">
+        <img src="Images/OSHA10.png" alt="OSHA certificate">
+        <h3>OSHA 10-Hour General Industry</h3>
+        <p>Completed CareerSafe OSHA 10-Hour General Industry training.</p>
     </div>
 
-    <div class="project-card">
-        <h3>Cybersecurity Studies</h3>
-        <p>Learning networking, digital safety, and computer systems at Waipahu High School.</p>
+    <div class="cert-card">
+      <img src="Images/PrepForWBL.png" alt="Preperation for WBL">
+      <h3>Preperation for WBL</h3>
+      <p>Completed Work-Based Learning preparation focused on professional skills and workplace expectations.</p>
     </div>
 
-</div>
-    </section>
+    <div class="cert-card">
+      <img src="Images/CyberSafetyAwareness.png" alt="Cyber Safety Awareness">
+      <h3>Cyber Safety Awareness</h3>
+      <p>Completed cybersecurity awareness training focused on digital safety, online threats, and responsible technology use.</p>
+    </div>
 
-    <!-- This links to your JS folder (make sure the folder is named 'js') -->
-    <script src="js/script.js"></script>
+  </div>
+</section>
+
+<script src="Scripts/script.js"></script>
 </body>
 </html>
