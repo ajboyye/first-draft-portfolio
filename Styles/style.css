@@ -488,6 +488,33 @@ html {
     box-shadow: 0 0 20px rgba(56, 189, 248, 0.45);
 }
 
+.resume-btn {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid rgba(56, 189, 248, 0.35);
+
+    border-radius: 50%;
+
+    color: #38bdf8;
+
+    font-size: 1.2rem;
+
+    transition: 0.3s ease;
+}
+
+.resume-btn:hover {
+    background: #38bdf8;
+    color: #020617;
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.45);
+}
 /* ---------- SKILLS BADGES SECTION ---------- */
 
 .skill-list {
