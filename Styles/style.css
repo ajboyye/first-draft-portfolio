@@ -334,6 +334,13 @@ h2 {
         transform: translateY(0);
     }
 }
+/* ---------- GOALS ---------- */
+.goals-section {
+    color: #38bdf8;
+    padding-left:20px
+}
+
+
 
 /* ---------- PROJECTS ---------- */
 
@@ -542,4 +549,9 @@ html {
     color: white;
     box-shadow: 0 0 15px rgba(56, 189, 248, 0.25);
     transform: translateY(-2px);
+}
+
+/* ---------- CONTACT SECTION ---------- */
+.contact-list {
+    color:#38bdf8
 }
